@@ -1,0 +1,29 @@
+{
+	"name": "mercadolibrechallengeback",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx nodemon node ./local.js",
+		"format": "prettier --write .",
+		"lint": "eslint --fix --ext .js ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zucerkia/mercadoLibreChallengeBack.git"
+	},
+	"author": "Julián Andrés Sucerquia Uribe",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/zucerkia/mercadoLibreChallengeBack/issues"
+	},
+	"homepage": "https://github.com/zucerkia/mercadoLibreChallengeBack#readme",
+	"dependencies": {
+		"express": "^4.18.1"
+	},
+	"devDependencies": {
+		"eslint": "^8.22.0",
+		"nodemon": "^2.0.19",
+		"prettier": "^2.7.1"
+	}
+}
